@@ -22,5 +22,5 @@ async def chat_endpoint(
     return ChatResponse(
         success=True,
         provider=payload.provider,
-        reply=reply
+        output_text=reply
     )

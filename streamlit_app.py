@@ -88,7 +88,7 @@ if prompt := st.chat_input("Type your message here..."):
         # Display Status Code
         if response.status_code == 200:
             result = response.json()
-            reply = result.get("reply", "No reply found in response.")
+            reply = result.get("output_text", "No response found in output_text.")
             
             # Add assistant response to history
             st.session_state.messages.append({"role": "assistant", "content": reply})

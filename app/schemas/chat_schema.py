@@ -7,7 +7,7 @@ class ChatRequest(BaseModel):
 class ChatResponse(BaseModel):
     success: bool
     provider: str
-    reply: str
+    output_text: str
 
 class HealthResponse(BaseModel):
     status: str

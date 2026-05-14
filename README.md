@@ -47,7 +47,7 @@ A production-ready, multi-provider Chatbot API supporting Gemini, Groq, and Llam
   {
     "success": true,
     "provider": "groq",
-    "reply": "..."
+    "output_text": "..."
   }
   ```
 
