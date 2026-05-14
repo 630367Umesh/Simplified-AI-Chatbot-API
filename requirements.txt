@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+pydantic-settings
+slowapi
+httpx
+google-generativeai
+groq
+loguru
+python-multipart
+email-validator
+streamlit
+requests
